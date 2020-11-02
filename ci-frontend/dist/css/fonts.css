@@ -1,7 +1,18 @@
 @charset "UTF-8";
 /* open-sans-regular - latin */
+/* open-sans-300 - latin */
 @font-face {
-  font-family: 'OpenSans-Regular';
+  font-family: 'Opensans-Regular';
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/open-sans-v18-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("fonts/open-sans-v18-latin-300.eot?#iefix") format("embedded-opentype"), url("fonts/open-sans-v18-latin-300.woff2") format("woff2"), url("fonts/open-sans-v18-latin-300.woff") format("woff"), url("fonts/open-sans-v18-latin-300.ttf") format("truetype"), url("fonts/open-sans-v18-latin-300.svg#OpenSans") format("svg");
+  /* Legacy iOS */ }
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Opensans-Bold';
   font-style: normal;
   font-weight: 400;
   src: url("fonts/open-sans-v18-latin-regular.eot");
@@ -11,7 +22,7 @@
 
 /* open-sans-600 - latin */
 @font-face {
-  font-family: 'OpenSans-Bold';
+  font-family: 'Opensans-Medium';
   font-style: normal;
   font-weight: 600;
   src: url("fonts/open-sans-v18-latin-600.eot");
@@ -21,22 +32,12 @@
 
 /* open-sans-700 - latin */
 @font-face {
-  font-family: 'OpenSans-Medium';
+  font-family: 'Opensans-Black';
   font-style: normal;
   font-weight: 700;
   src: url("fonts/open-sans-v18-latin-700.eot");
   /* IE9 Compat Modes */
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("fonts/open-sans-v18-latin-700.eot?#iefix") format("embedded-opentype"), url("fonts/open-sans-v18-latin-700.woff2") format("woff2"), url("fonts/open-sans-v18-latin-700.woff") format("woff"), url("fonts/open-sans-v18-latin-700.ttf") format("truetype"), url("fonts/open-sans-v18-latin-700.svg#OpenSans") format("svg");
-  /* Legacy iOS */ }
-
-/* open-sans-800 - latin */
-@font-face {
-  font-family: 'OpenSans-Black';
-  font-style: normal;
-  font-weight: 800;
-  src: url("fonts/open-sans-v18-latin-800.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("fonts/open-sans-v18-latin-800.eot?#iefix") format("embedded-opentype"), url("fonts/open-sans-v18-latin-800.woff2") format("woff2"), url("fonts/open-sans-v18-latin-800.woff") format("woff"), url("fonts/open-sans-v18-latin-800.ttf") format("truetype"), url("fonts/open-sans-v18-latin-800.svg#OpenSans") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
